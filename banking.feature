@@ -11,7 +11,7 @@ Feature: Banking
     When I withdraw $1000
     Then I get $1000 from the ATM
     
-    @requirementKey=MAC-RQ-182
+    @requirementKey=MAC-RQ-183
     @testEntityKey=MAC-TC-902
     Scenario: Withdraw more money
  	Given I have $150 on my account
