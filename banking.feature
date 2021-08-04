@@ -4,8 +4,6 @@ Feature: Banking
     
     @storykey=SUPPORT-55
     @testcasekey=SUPPORT-TC-58903
-    @testcasekey=SUPPORT-TC-58904
-    @testcasekey=SUPPORT-TC-58905
     Scenario: Withdraw less money
     Given I have $2000 on my account
     When I withdraw $1000
