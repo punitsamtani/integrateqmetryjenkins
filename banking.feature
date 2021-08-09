@@ -1,9 +1,6 @@
 Feature: Banking
   As a user
   I want to use a ATM Trasanction
-  
-  @author:punit.samtani
-  @description:punit testing description in qtm 881
     
     Scenario: Withdraw less money
     Given I have $2000 on my account
