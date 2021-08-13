@@ -10,6 +10,7 @@ Feature: Banking
     Then I get $1000 from the ATM
 
     Scenario: Withdraw more money
+    description:Punits Test
  	Given I have $150 on my account
 	When I withdraw $100
 	Then I get $2000 from the ATM
