@@ -12,7 +12,7 @@ Feature: Banking
   Scenario: Withdraw more money
  	Given I have $150 on my account
 	When I withdraw $100
-	Then I get $1000 from the ATM
+	Then I get $1500 from the ATM
 	
 	@storykey=PM-28
 	Scenario Outline: Withdraw money from the account
