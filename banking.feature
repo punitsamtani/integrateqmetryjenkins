@@ -2,22 +2,19 @@ Feature: Banking
   As a user
   I want to use a ATM Trasanction
 
-    @storykey=BD-1
-    @testcasekey=BD-TC-1
+    @storykey=BD-2
     Scenario: Withdraw less money
     Given I have $2000 on my account
     When I withdraw $500
     Then I get $500 from the ATM
 
-    @storykey=BD-1
-    @testcasekey=BD-TC-2
+    @storykey=BD-2
     Scenario: Withdraw more money
  	  Given I have $150 on my account
 	  When I withdraw $100
 	  Then I get $1000 from the ATM
 	
-    @storykey=BD-1
-    @testcasekey=BD-TC-3
+    @storykey=BD-2
 	  Scenario Outline: Withdraw money from the account
  	  Given I have $<balance> on my account
 	  When I withdraw $<withdraw>
