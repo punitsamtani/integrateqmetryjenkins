@@ -17,7 +17,7 @@ Feature: Banking
 	  Then I get $1000 from the ATM
 	
     @storykey=BD-1
-    @testcasekey=DB-TC-3
+    @testcasekey=BD-TC-3
 	  Scenario Outline: Withdraw money from the account
  	  Given I have $<balance> on my account
 	  When I withdraw $<withdraw>
