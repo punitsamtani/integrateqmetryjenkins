@@ -6,15 +6,15 @@ Feature: Banking
     @testEntityKey=MP-TC-1
     Scenario: Withdraw less money
     Given I have $2000 on my account
-    When I withdraw $1000
-    Then I get $1000 from the ATM
+    When I withdraw $500
+    Then I get $500 from the ATM
 
     @requirementKey=MP-RQ-1
     @testEntityKey=MP-TC-2
     Scenario: Withdraw more money
  	Given I have $150 on my account
 	When I withdraw $100
-	Then I get $2000 from the ATM
+	Then I get $1000 from the ATM
 	
     @requirementKey=MP-RQ-1
     @testEntityKey=MP-TC-3
@@ -26,3 +26,5 @@ Feature: Banking
  	Examples:
 	| balance| withdraw | received |
 	| 500 | 50 | 50 |
+	| 100 | 100 | 100 |
+	| 300 | 75 | 75 |
