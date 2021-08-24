@@ -5,7 +5,7 @@ Feature: Banking
     @requirementKey=PM-28
     @testEntityKey=PM-TC-21
     Scenario: Withdraw less money
-    Given I have $2000 on my account
+    Given I have $4000 on my account
     When I withdraw $500
     Then I get $500 from the ATM
 
