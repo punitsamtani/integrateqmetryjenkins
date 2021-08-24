@@ -2,22 +2,22 @@ Feature: Banking
   As a user
   I want to use a ATM Trasanction
 
-    @requirementKey=MP-RQ-1
-    @testEntityKey=MP-TC-1
+    @requirementKey=PM-28
+    @testEntityKey=PM-TC-21
     Scenario: Withdraw less money
     Given I have $2000 on my account
     When I withdraw $500
     Then I get $500 from the ATM
 
-    @requirementKey=MP-RQ-1
-    @testEntityKey=MP-TC-2
+    @requirementKey=PM-28
+    @testEntityKey=PM-TC-22
     Scenario: Withdraw more money
  	Given I have $150 on my account
 	When I withdraw $100
 	Then I get $1000 from the ATM
 	
-    @requirementKey=MP-RQ-1
-    @testEntityKey=MP-TC-3
+    @requirementKey=PM-28
+    @testEntityKey=PM-TC-23
 	Scenario Outline: Withdraw money from the account
  	Given I have $<balance> on my account
 	When I withdraw $<withdraw>
