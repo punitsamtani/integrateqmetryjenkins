@@ -9,7 +9,7 @@ Feature: Banking
 
     Scenario: Withdraw more money
  	  Given I have $150 on my account
-	  When I withdraw $1000
+	  When I withdraw $2000
 	  Then I get $0 from the ATM
 	
 	  Scenario Outline: Withdraw money from the account
